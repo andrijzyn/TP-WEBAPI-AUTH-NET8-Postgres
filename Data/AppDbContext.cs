@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using TodoApi.Models;
+using web.Models;
 
-namespace TodoApi.Data;
+namespace web.Data;
 
 public class AppDbContext : IdentityDbContext<IdentityUser>
 {
